@@ -821,7 +821,7 @@ def train(request):
 	if request.user.username!='admin':
 		return redirect('not-authorised')
 
-	training_dir='face_recognition_data/training_dataset'
+	training_dir='Attendance-System-Using-Face-Recognition\face_recognition_data\training_dataset'
 	
 	
 	
