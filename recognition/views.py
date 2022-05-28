@@ -76,7 +76,7 @@ def create_dataset(username):
 	#capture images from the webcam and process and detect the face
 	# Initialize the video stream
 	print("[INFO] Initializing Video stream")
-	vs = VideoStream(src=0).start()
+	vs = VideoStream(src=1).start()
 	#time.sleep(2.0) ####CHECK######
 
 	# Our identifier
@@ -626,7 +626,7 @@ def mark_your_attendance(request):
 
 	
 
-	vs = VideoStream(src=0).start()
+	vs = VideoStream(src=1).start()
 	
 	sampleNum = 0
 	
@@ -736,7 +736,7 @@ def mark_your_attendance_out(request):
 
 	
 
-	vs = VideoStream(src=0).start()
+	vs = VideoStream(src=1).start()
 	
 	sampleNum = 0
 	
@@ -846,6 +846,7 @@ def train(request):
 		for imagefile in image_files_in_folder(curr_directory):
 			print(str(imagefile))
 			image=cv2.imread(imagefile)
+
 			try:
 				X.append((face_recognition.face_encodings(image)[0]).tolist())
 				
