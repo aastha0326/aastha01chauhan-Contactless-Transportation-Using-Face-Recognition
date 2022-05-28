@@ -39,3 +39,4 @@ typed-ast==1.4.2
 typing-extensions==3.7.4.3
 urllib3==1.26.4
 gunicorn
+whitenoise
