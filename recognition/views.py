@@ -37,9 +37,6 @@ from matplotlib import rcParams
 import math
 from django.conf import settings 
 from django.views.generic.base import TemplateView
-import razorpay
-from django.shortcuts import render
-from django.core.mail import send_mail
 from django.conf import settings
 
 mpl.use('Agg')
@@ -58,17 +55,6 @@ class contact(TemplateView):  # new
     template_name = "recognition/contact.html"
 
 
-def index(request):
-
-	if request.method == 'POST':
-		message = request.POST['message']
-
-		send_mail('Contact Form',
-		 message, 
-		 settings.EMAIL_HOST_USER,
-		 ['aastha.chauhan01@gmail.com'], 
-		 fail_silently=False)
-	return render(request, 'recognition/index.html')
 
 def create_dataset(username):
 	id = username
