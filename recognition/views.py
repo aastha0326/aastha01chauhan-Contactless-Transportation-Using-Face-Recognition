@@ -37,6 +37,8 @@ from matplotlib import rcParams
 import math
 from django.conf import settings 
 from django.views.generic.base import TemplateView
+from django.shortcuts import render
+from django.core.mail import send_mail
 from django.conf import settings
 
 mpl.use('Agg')
@@ -55,6 +57,8 @@ class contact(TemplateView):  # new
     template_name = "recognition/contact.html"
 
 
+def index(request):
+	return render(request, 'recognition/index.html')
 
 def create_dataset(username):
 	id = username
