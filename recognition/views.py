@@ -76,7 +76,7 @@ def create_dataset(username):
 	#capture images from the webcam and process and detect the face
 	# Initialize the video stream
 	print("[INFO] Initializing Video stream")
-	vs = VideoStream(src=1).start()
+	vs = VideoStream(src=0).start()
 	#time.sleep(2.0) ####CHECK######
 
 	# Our identifier
@@ -626,14 +626,14 @@ def mark_your_attendance(request):
 
 	
 
-	vs = VideoStream(src=1).start()
+	vs = VideoStream(src=0).start()
 	
 	sampleNum = 0
 	
 	while(True):
 		
 		frame = vs.read()
-		
+		print("hey",type(frame))
 		frame = imutils.resize(frame ,width = 800)
 		
 		gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -736,7 +736,7 @@ def mark_your_attendance_out(request):
 
 	
 
-	vs = VideoStream(src=1).start()
+	vs = VideoStream(src=0).start()
 	
 	sampleNum = 0
 	
