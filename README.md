@@ -43,7 +43,6 @@ make a separate python virtual environment or use the default one already instal
 run pip install -r requirements.txt inside the repo
 Run python manage.py runserver inside the project
 Enjoy !
-UI 💻
              
 username: admin
 password: Aastha@12345
@@ -52,7 +51,8 @@ username: ahilya
 password: Aastha@12345
 
 Presentation 🎓
-Link To Presentation(https://drive.google.com/drive/u/2/my-drive)
+Link To Presentation
+(https://drive.google.com/drive/u/2/my-drive)
 
 if (youEnjoyed) {
     starThisRepository();
