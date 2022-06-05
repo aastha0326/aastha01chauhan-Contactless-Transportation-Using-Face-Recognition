@@ -1,6 +1,6 @@
 # aastha01chauhan-Contactless-Transportation-Using-Face-
 Contactless Transit/Metro transportation system using Face Recoognition 💻
-Link To Presentation(https://drive.google.com/drive/u/2/my-drive)
+Link To Presentation(https://drive.google.com/file/d/10bVUS_bbJXPMD_zaAbkNxe-E-BnVtdFP/view?usp=sharing)
 
 As we are moving towards cashless and contactless economy, this project is a small thought in this direction. This project involves building a contactless Transit/metro system which utilizes facial recognition to maintain boarding and deboarding records of passengers. It covers areas such as facial detection, alignment, and recognition, along with the development of a web application to cater to various use cases of the system such as registration of new passengers, addition of photos to the training dataset, ride reports, payment gateway and so on. This project intends to serve as an efficient substitute for traditional manual cashing transportation systems.
 
@@ -35,7 +35,7 @@ Classification of Unknown Embedding
 using a Linear SVM (scikit-learn)
 
 Documentation 📰
-This folder contains all the related documents. (https://drive.google.com/drive/u/2/my-drive)
+This folder contains all the related documents. (https://drive.google.com/file/d/1izbbkCw2hz7rXJ_hm-p5Ely0s1ov0f_9/view?usp=sharing)
 
 How To Run ?
 clone it on your computer
@@ -52,7 +52,7 @@ password: Aastha@12345
 
 Presentation 🎓
 Link To Presentation
-(https://drive.google.com/drive/u/2/my-drive)
+(https://drive.google.com/file/d/10bVUS_bbJXPMD_zaAbkNxe-E-BnVtdFP/view?usp=sharing)
 
 if (youEnjoyed) {
     starThisRepository();
